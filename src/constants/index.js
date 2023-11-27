@@ -16,8 +16,8 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
+    aicte,
+    pepcoding,
     shopify,
     carrent,
     jobit,
@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "React Developer",
       icon: creator,
     },
   ];
@@ -116,50 +116,24 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Student Intern",
+      company_name: "AICTE NEAT",
+      icon: aicte,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2023 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "During my AWS CLOUD internship with AICTE, NEAT, and EDUSKILLS, I delved into the realm of cloud technologies, independently navigating the dynamic landscape.",
+        "Throughout the immersive experience, I concentrated on configuring various AWS services, honing my skills in setting up cloud infrastructure and gaining practical insights into their functionalities.",
+        "My focus extended to ensuring the security of AWS deployments and understanding compliance standards. This aspect of the internship provided a comprehensive understanding of best practices in maintaining a secure and compliant cloud environment.",
+        "This enriching experience deepened my technical skills in cloud technologies, laying a solid foundation for my future pursuits in this field. I am appreciative of the opportunity and eager to apply my knowledge to real-world scenarios.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Web Developer Intern",
+      company_name: "PEPCODING EDUCATION (OPC) PRIVATE LTD.",
+      icon: pepcoding,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Feb 2021 - May 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
