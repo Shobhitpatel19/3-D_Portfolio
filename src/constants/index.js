@@ -19,10 +19,10 @@ import {
     aicte,
     pepcoding,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    weatherImage,
+    portfolioImage,
+    blogImage,
   } from "../assets";
   
   export const navLinks = [
@@ -172,16 +172,42 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Blog Web App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web-based haven for bloggers and readers alike. Effortlessly search, post, and manage blogs across diverse categories. Discover a convenient and efficient solution for expressing and exploring unique perspectives.",
+      tags: [
+        {
+          name: "mongodb",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "node",
+          color: "text-blue-800",
+        },
+      ],
+      image: blogImage,
+      source_code_link: "https://github.com/Shobhitpatel19/BlogWebsite.git",
+      link: "https://blog-app-by-shobhit.netlify.app"
+    },
+    {
+      name: "Weather Web App",
+      description:
+        "Explore real-time weather effortlessly with our Weather Web App. Stay informed with accurate forecasts for seamless day-to-day planning. Your go-to source for instant weather updates—simple, precise, and always within reach.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "weatherapi",
           color: "green-text-gradient",
         },
         {
@@ -189,50 +215,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: weatherImage,
+      source_code_link: "https://github.com/Shobhitpatel19/weather-app.git",
+      link: "weather-app-by-shobhit.netlify.app"
     },
     {
-      name: "Job IT",
+      name: "Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Explore my portfolio—merging technology, artistry. Captivating Three.js 3D models offer a brief, immersive glimpse into my unique vision and passion. Discover the intersection of innovation, design, and creativity in this curated showcase.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "three.js",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: portfolioImage,
+      source_code_link: "https://github.com/Shobhitpatel19/3-D_Portfolio.git",
+      link: "portfolio-shobhit.netlify.app"
     },
   ];
   

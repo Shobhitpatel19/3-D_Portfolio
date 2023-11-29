@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import aicte from "./company/aicte.png";
 import pepcoding from "./company/pepcoding.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import blogImage from "./blogImage.png";
+import portfolioImage from "./portfolioImage.png";
+import weatherImage from "./weatherImage.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   shopify,
   aicte,
   pepcoding,
-  carrent,
-  jobit,
-  tripguide,
+  blogImage,
+  portfolioImage,
+  weatherImage,
 };
