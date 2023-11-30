@@ -190,7 +190,7 @@ import {
         },
         {
           name: "node",
-          color: "text-blue-800",
+          color: "text-fuchsia-600",
         },
       ],
       image: blogImage,
@@ -217,7 +217,7 @@ import {
       ],
       image: weatherImage,
       source_code_link: "https://github.com/Shobhitpatel19/weather-app.git",
-      link: "weather-app-by-shobhit.netlify.app"
+      link: "https://weather-app-by-shobhit.netlify.app"
     },
     {
       name: "Portfolio",
@@ -239,7 +239,7 @@ import {
       ],
       image: portfolioImage,
       source_code_link: "https://github.com/Shobhitpatel19/3-D_Portfolio.git",
-      link: "portfolio-shobhit.netlify.app"
+      link: "https://portfolio-shobhit.netlify.app"
     },
   ];
   
