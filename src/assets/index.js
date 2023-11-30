@@ -21,14 +21,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import aicte from "./company/aicte.png";
 import pepcoding from "./company/pepcoding.png";
 
 import blogImage from "./blogImage.png";
 import portfolioImage from "./portfolioImage.png";
 import weatherImage from "./weatherImage.png";
+
+import atulImage from "./atulImage.jpg";
+import mohitImage from "./mohitImage.jpg";
+import shivamImage from "./shivamImage.jpg";
 
 export {
   logo,
@@ -52,11 +54,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
   aicte,
   pepcoding,
   blogImage,
   portfolioImage,
   weatherImage,
+  atulImage,
+  mohitImage,
+  shivamImage,
 };

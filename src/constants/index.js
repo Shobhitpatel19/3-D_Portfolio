@@ -15,14 +15,15 @@ import {
     git,
     figma,
     docker,
-    meta,
     aicte,
     pepcoding,
-    shopify,
     threejs,
     weatherImage,
     portfolioImage,
     blogImage,
+    atulImage,
+    shivamImage,
+    mohitImage,
   } from "../assets";
   
   export const navLinks = [
@@ -122,10 +123,10 @@ import {
       iconBg: "#383E56",
       date: "May 2023 - July 2023",
       points: [
-        "During my AWS CLOUD internship with AICTE, NEAT, and EDUSKILLS, I delved into the realm of cloud technologies, independently navigating the dynamic landscape.",
-        "Throughout the immersive experience, I concentrated on configuring various AWS services, honing my skills in setting up cloud infrastructure and gaining practical insights into their functionalities.",
-        "My focus extended to ensuring the security of AWS deployments and understanding compliance standards. This aspect of the internship provided a comprehensive understanding of best practices in maintaining a secure and compliant cloud environment.",
-        "This enriching experience deepened my technical skills in cloud technologies, laying a solid foundation for my future pursuits in this field. I am appreciative of the opportunity and eager to apply my knowledge to real-world scenarios.",
+        "In my AWS CLOUD internship with AICTE, NEAT, and EDUSKILLS, I independently explored cloud technologies.",
+        "In the immersive experience, I honed my skills in configuring diverse AWS services, mastering cloud infrastructure setup and gaining practical insights.",
+        "I focused on securing AWS deployments and compliance standards in the internship, mastering best practices for a secure cloud environment.",
+        "This deepened my cloud tech skills, laying the foundation for future pursuits. Grateful for the opportunity, I'm eager to apply this knowledge.",
       ],
     },
     {
@@ -133,7 +134,7 @@ import {
       company_name: "PEPCODING EDUCATION (OPC) PRIVATE LTD.",
       icon: pepcoding,
       iconBg: "#E6DEDD",
-      date: "Feb 2021 - May 2022",
+      date: "Feb 2022 - May 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -146,27 +147,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Incredibly skilled in web development - a reliable source for tech insights and solutions, making collaborative projects a breeze.",
+      name: "Atul Tiwari",
+      designation: "Student",
+      company: "LNCT, Bhopal",
+      image: atulImage,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "A true tech enthusiast! Your web development proficiency not only enhances our projects but also motivates the entire team to excel.",
+      name: "Mohit Patel",
+      designation: "Student",
+      company: "LNCT, Bhopal",
+      image: mohitImage,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "An invaluable team member! Your web development expertise adds a special touch to our projects, ensuring success every time.",
+      name: "Shivam Jain",
+      designation: "Student",
+      company: "LNCT, Bhopal",
+      image: shivamImage,
     },
   ];
   

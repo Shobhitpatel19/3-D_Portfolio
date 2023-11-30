@@ -53,7 +53,7 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
           <p
             onClick={() => window.open(link, "_blank")}
-            className="mt-2 text-secondary text-[18px] cursor-pointer text-blue-500"
+            className="mt-2 text-secondary text-[18px] cursor-pointer text-blue-600"
           >
             View Project
           </p>
